@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\stephen.esposito\\Documents\\HackathonChatbot\\HackathonChatBot\\HackathonCorebot\\HackathonCorebot.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\stephen.esposito\\Documents\\HackathonChatbot\\HackathonChatBot\\HackathonCorebot\\HackathonCorebot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stephen.esposito\\Documents\\HackathonChatbot\\HackathonChatBot\\HackathonCorebot\\HackathonCorebot.csproj",
+        "projectName": "HackathonCorebot",
+        "projectPath": "C:\\Users\\stephen.esposito\\Documents\\HackathonChatbot\\HackathonChatBot\\HackathonCorebot\\HackathonCorebot.csproj",
+        "packagesPath": "C:\\Users\\stephen.esposito\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stephen.esposito\\Documents\\HackathonChatbot\\HackathonChatBot\\HackathonCorebot\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\stephen.esposito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://superion.pkgs.visualstudio.com/_packaging/superion/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Bot.Builder.AI.Luis": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "Microsoft.Bot.Builder.Dialogs": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "Microsoft.Bot.Builder.Integration.AspNet.Core": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Recognizers.Text.DataTypes.TimexExpression": {
+              "target": "Package",
+              "version": "[1.1.5, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
